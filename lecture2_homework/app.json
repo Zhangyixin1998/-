@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/resume/resume",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#6495ED",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "个人空间",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#6495ED",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "基本信息",
+        "iconPath": "images/index1.png",
+        "selectedIconPath": "images/index2.png"
+      },
+      {
+        "pagePath": "pages/resume/resume",
+        "text": "个人履历",
+        "iconPath": "images/resume1.png",
+        "selectedIconPath": "images/resume2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap53.json"
+}
