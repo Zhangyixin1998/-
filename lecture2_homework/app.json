@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/resume/resume",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/resume/resume"
+    
   ],
   "window": {
     "navigationBarBackgroundColor": "#6495ED",
