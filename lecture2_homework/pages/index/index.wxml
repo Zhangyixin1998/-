@@ -1,0 +1,16 @@
+<!-- 区域1：幻灯片展示个人照片 -->
+<swiper indicator-dots="true" autoplay="true" interval="2500" duration="700">
+  <view wx:for="{{photos}}" wx:key="swiper{{index}}">
+    <swiper-item>
+      <image src="{{item.src}}"></image>
+    </swiper-item>
+  </view>
+</swiper>
+
+<!-- 区域2：个人基本信息 -->
+<view class="info-list">
+  <view class="info-item" wx:for="{{infoList}}" wx:key="{{item.id}}">
+    <image src="{{item.src}}"></image>
+    <text>{{item.content}}</text>
+  </view>
+</view>
