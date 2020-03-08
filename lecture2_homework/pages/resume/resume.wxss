@@ -1,0 +1,77 @@
+.container1{
+  height: 600rpx;
+  width: 100%;
+  border-bottom: 6rpx groove #ADD8E6
+}
+.container2{
+  width: 100%;
+}
+.title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10rpx;
+}
+.title image{
+  width: 70rpx;
+  height: 70rpx;
+  margin: 10rpx
+}
+.title text{
+  font-size:40rpx;
+  color:black;
+  text-align: center
+}
+
+/* 学历信息列表 */
+.edu-list{
+  width: 100%;
+  min-height: 400rpx;
+}
+.edu-item{
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1rpx dashed #ADD8E6;
+  margin: 10rpx;
+}
+.edu-item image{
+  height: 80rpx;
+  width: 80rpx;
+  margin:15rpx;
+}
+.edu-item text{
+  font-size: 35rpx;
+  color:black;
+  margin: 20rpx;
+  flex-grow: 1;
+}
+
+/* 荣誉信息列表 */
+.praise-list{
+  width: 100%;
+  min-height: 200rpx;
+}
+.praise-item{
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1rpx dashed #ADD8E6;
+  margin: 10rpx;
+}
+.praise-item image{
+  height: 60rpx;
+  width: 60rpx;
+  margin:15rpx;
+}
+.praise-item text{
+  font-size: 35rpx;
+  color:black;
+  margin: 20rpx;
+  flex-grow: 1;
+}
